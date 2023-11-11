@@ -1,0 +1,612 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.chbk-icons{
+    color: #0783de;
+}
+.newDemo-radio-txt{
+    color: #222 !important;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+.checkboxes_first{
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 599px) {
+    .checkboxes_main{
+        margin-top: 10%;
+    }
+    .checkboxes{
+        width: 100%;
+        padding: 5%;
+        margin-bottom: 10%;
+        border-radius: 8px;
+        cursor: pointer;
+        min-height: 120px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    }
+    .checkboxes_active{
+        cursor: pointer;
+        width: 100%;
+        padding: 5%;
+        margin-bottom: 10%;
+        border-radius: 8px;
+        min-height: 120px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+        background-color: #14bf98;
+    }
+    p.dob_txt{
+        margin-top: 3px !important;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        color: #807f7f !important;
+    }
+    .calender_div{
+        border-radius: 8px;
+        width: 100%;
+        border: 1px solid #C6C6C6;
+        min-height: 50px;
+        padding-left: 13px;
+        margin-top: 5px;
+        padding-top: 10px;
+        background-color: #fff !important;
+        cursor: pointer;
+    }
+    .checkboxes_gender{
+        margin-bottom: -7px;
+    }
+    p.inputHeaderTxt{
+        font-weight: 600;
+        color: black;
+        margin-bottom: 5px;
+        margin-top: 25px;
+        margin-left: 3px;
+    }
+    .forPC{
+        display: none;
+    }
+    .forMobile{
+        display: block;
+    }
+    .registration_right{
+        margin-top: 5%;
+        padding-left: 7%;
+        padding-right: 7%;
+        margin-bottom: 5%;
+    }
+    .logos-div-navbar{
+        height: 70px;
+        width: 100%;
+        background-color: #fff;
+        align-items: center;
+        justify-content:space-between;
+        display: flex;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .nielit-logo-navbar{
+        height: 37px;
+        object-fit: contain;
+    }
+    .handloom-logo-navbar{
+        height: 37px;
+        object-fit: contain;
+    }
+    .meity-logo-navbar{
+        height: 37px;
+        object-fit: contain;
+    }
+    .nl-logo-navbar{
+        height: 35px;
+        object-fit: contain;
+    }
+    .intro_div_form{
+        height: 240px;
+        width: 103vw;
+        background-repeat: no-repeat, repeat;
+        background-position: left top;
+        background-image: url("../assets/banner.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .intro_div_form_inner{
+        padding-top: 8%;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    p.intro_div_form_txt{
+        font-family: 'Krona One', sans-serif;
+        font-size: 18px;
+        color: #fff;
+        margin-bottom: 0px;
+    }
+    p.intro_div_form_subtxt{
+        font-family: 'Krona One', sans-serif;
+        font-size: 14px;
+        color: #fff;
+        margin-bottom: 0px;
+    }
+    p.intro_div_form_description{
+        display: none;
+    }
+    p.intro_div_form_description_2{
+        font-size: 12px;
+        color: #fff;
+        font-family: 'Rubik', sans-serif;
+    }
+    span.highlight_txt{
+        background: linear-gradient(90.33deg, #3366DE 35.15%, #C23FE3 65.92%);
+        color: #fff;
+        font-size: 12px;
+        padding-left: 5px;
+        font-family: 'Rubik', sans-serif;
+        padding-right: 5px;
+    }
+    .form_mainDiv{
+        padding: 5%;
+    }
+    .dail_hiden{
+        display: none;
+    }
+    .input-new-contact-message {
+        padding-left: 10px;
+        border: 1px solid #bfbfbf;
+        border-radius: 8px;
+        width: 100%;
+        height: 100%;
+        padding-top: 8px;
+        min-height: 43px;
+        padding-right: 20px !important;
+    }
+    textarea.input-new-contact-message {
+        padding-top: 10px;
+    }
+    button.requestQuote {
+        width: 115px;
+        height: 40px;
+        border-radius: 5px;
+        color: #14bf98;
+        font-size: 15px;
+        font-family: 'Rubik', sans-serif;
+        margin-top: 10px;
+        background: #fff;
+        border: 0px solid #fff;
+    }
+    button.requestQuote:hover{
+        background: rgb(242, 242, 242);
+    }
+    input.createOrderInputFull{
+        border-radius: 8px;
+        padding-left: 10px;
+        width: 100%;
+        border: 1px solid #bfbfbf;
+        min-height: 48px;
+    }
+    p.login_header_text{
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-size: 27px;
+        color: #252525;
+        margin-bottom: 3px;
+    }
+    span.validateErrorTxtRight {
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-size: 13px;
+        display: flex;
+        margin-left: 0.5%;
+        margin-top: 5px;
+        letter-spacing: 0.01em;
+        color: red;
+    }
+    button.submitData {
+        width: 100%;
+        height: 48px;
+        border-radius: 8px;
+        color: #fff;
+        font-size: 17px;
+        font-family: 'Rubik', sans-serif;
+        margin-top: 20px;
+        background: #14bf98;
+        border: 0px solid #fff;
+    }
+    
+    button.submitData_disabled {
+        width: 100%;
+        height: 48px;
+        border-radius: 8px;
+        cursor: not-allowed !important;
+        color: #222;
+        font-size: 17px;
+        font-family: 'Rubik', sans-serif;
+        margin-top: 20px;
+        background: #dadada;
+        border: 0px solid #fff;
+    }
+}
+p.passport_subheader_text{
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    color: #818181;
+    margin-bottom: 0px;
+}
+p.cardTxtTitle{
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    color: #222;
+    margin-bottom: 0px;
+}
+p.cardTxtTitle_white{
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 0px;
+}
+p.cardTxt{
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    color: #222;
+    margin-bottom: 0px;
+}
+p.cardTxt_white{
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 0px;
+}
+@media screen and (min-width: 600px) {
+    .checkboxes_main{
+        margin-top: 3%;
+        margin-bottom: 2%;
+    }
+    .checkboxes{
+        width: 100%;
+        padding: 5%;
+        border-radius: 8px;
+        cursor: pointer;
+        min-height: 120px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    }
+    .checkboxes_active{
+        cursor: pointer;
+        width: 100%;
+        padding: 5%;
+        border-radius: 8px;
+        min-height: 120px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+        background-color: #14bf98;
+    }
+    button.submitData {
+        width: 180px;
+        height: 55px;
+        border-radius: 8px;
+        color: #fff;
+        font-size: 17px;
+        font-family: 'Rubik', sans-serif;
+        margin-top: 20px;
+        background: #14bf98;
+        border: 0px solid #fff;
+    }
+    
+    button.submitData_disabled {
+        width: 180px;
+        height: 55px;
+        border-radius: 8px;
+        cursor: not-allowed !important;
+        color: #222;
+        font-size: 17px;
+        font-family: 'Rubik', sans-serif;
+        margin-top: 20px;
+        background: #dadada;
+        border: 0px solid #fff;
+    }
+    p.dob_txt{
+        margin-top: 1px;
+        color: #807f7f !important;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    .calender_div{
+        border-radius: 8px;
+        width: 100%;
+        border: 1px solid #C6C6C6;
+        height: 50px;
+        padding-left: 13px;
+        margin-top: 5px;
+        padding-top: 10px;
+        cursor: pointer;
+        background-color: #fff !important;
+    }
+    .registration_right{
+        margin-top: 15%;
+        padding-left: 5%;
+    }
+    .checkboxes_gender{
+        margin-bottom: 0px;
+    }
+    .forPC{
+        display: block;
+    }
+    .forMobile{
+        display: none;
+    }
+    p.login_header_text{
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-size: 27px;
+        color: #252525;
+        margin-bottom: 3px;
+    }
+    p.inputHeaderTxt{
+        font-weight: 600;
+        color: black;
+        margin-bottom: 5px;
+        margin-top: 20px;
+        margin-left: 3px;
+    }
+    .logos-div-navbar{
+        height: 110px;
+        width: 100%;      
+        background-color: #fff;
+        align-items: center;
+        justify-content:space-between;
+        display: flex;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    button.requestQuote {
+        width: 155px;
+        height: 45px;
+        margin-right: 15px;
+        border-radius: 5px;
+        color: #14bf98;
+        font-size: 17px;
+        font-family: 'Rubik', sans-serif;
+        margin-top: 10px;
+        background: #fff;
+        border: 0px solid #fff;
+    }
+    button.requestQuote:hover{
+        background: rgb(242, 242, 242);
+    }
+    .nielit-logo-navbar{
+        height: 105px;
+        margin-top: 3px;
+        object-fit: contain;
+    }
+    .handloom-logo-navbar{
+        height: 90px;
+        object-fit: contain;
+        margin-left: 4%;
+    }
+    .nl-logo-navbar{
+        height: 86px;
+        object-fit: contain;
+        margin-left: 2%;
+    }
+    .meity-logo-navbar{
+        height: 85px;
+        object-fit: contain;
+    }
+    .intro_div_form{
+        height: 100vh;
+        width: 100vw;
+        background-repeat: no-repeat, repeat;
+        background-position: left top;
+        background-image: url("../assets/banner.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .intro_div_form_inner{
+        padding-top: 10%;
+        width: 60%;
+        padding-left: 7%;
+    }
+    p.intro_div_form_txt{
+        font-family: 'Krona One', sans-serif;
+        font-size: 4em;
+        margin-bottom: 0px !important;
+        color: #fff;
+    }
+    p.intro_div_form_subtxt{
+        font-family: 'Krona One', sans-serif;
+        font-size: 2.1em;
+        color: #fff;
+    }
+    p.intro_div_form_description{
+        font-size: 20px;
+        color: #fff;
+        font-family: 'Rubik', sans-serif;
+    }
+    p.intro_div_form_description_2{
+        font-size: 20px;
+        color: #fff;
+        font-family: 'Rubik', sans-serif;
+    }
+    span.highlight_txt{
+        background: linear-gradient(90.33deg, #3366DE 35.15%, #C23FE3 65.92%);
+        color: #fff;
+        font-size: 18px;
+        padding-left: 5px;
+        font-family: 'Rubik', sans-serif;
+        padding-right: 5px;
+    }
+    .form_mainDiv{
+        padding: 3%;
+        padding-bottom: 0px;
+    }
+    .dail_hiden{
+        display: block;
+    }
+    .input-new-contact-message {
+        padding-left: 10px;
+        border: 1px solid #bfbfbf;
+        border-radius: 8px;
+        width: 100%;
+        height: 100%;
+        padding-top: 8px;
+        min-height: 43px;
+        padding-right: 20px !important;
+    }
+    textarea.input-new-contact-message {
+        padding-top: 10px;
+    }
+    input.createOrderInputFull{
+        border-radius: 8px;
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 100%;
+        border: 1px solid #bfbfbf;
+        min-height: 48px;
+    }
+    span.validateErrorTxtRight {
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-size: 13px;
+        display: flex;
+        margin-left: 2.5%;
+        margin-top: 5px;
+        letter-spacing: 0.01em;
+        color: red;
+    }
+}
+button.adminQuote {
+    width: 155px;
+    height: 45px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 10px;
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+button.submitData:hover{
+    background: #11a482;
+}
+.home_box_1_title_white{
+    color: #484a46;
+    font: 700 1.75rem/2.125rem "Montserrat", sans-serif;
+    margin-bottom: 3px;
+}
+.home_box_1_para_white{
+    color:#3f3f3f;
+    font-size: 17px;
+    font-family: 'Rubik', sans-serif;
+}
+
+input.createOrderInputFull:focus {
+    border: 1.6px solid #14bf98;
+}
+input.createOrderInputFull:hover {
+    border: 1.6px solid #14bf98;
+}
+input.createOrderInputLeft{
+    border-radius: 8px;
+    padding-left: 10px;
+    width: 100%;
+    border: 1px solid #bfbfbf;
+    min-height: 48px;
+}
+input.createOrderInputLeft:focus {
+    border: 2px solid #14bf98;
+}
+input.createOrderInputDisabled{
+    border-radius: 8px;
+    padding-left: 10px;
+    width: 100%;
+    border: 1px solid #bfbfbf;
+    min-height: 48px;
+    background-color: rgb(238, 238, 238);
+}
+input.createOrderInputRight{
+    border-radius: 8px;
+    padding-left: 10px;
+    width: 100%;
+    border: 1px solid #bfbfbf;
+    min-height: 48px;
+}
+input.createOrderInputRight:focus {
+    border: 2px solid #14bf98;
+}
+input.contactInput{
+    border-radius: 8px;
+    padding-left: 10px;
+    width: 95%;
+    border: 1px solid #bfbfbf;
+    min-height: 48px;
+}
+input.contactInput:focus {
+    border: 2px solid #14bf98;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+span.validateErrorTxt {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    display: flex;
+    margin-top: -5px;
+    letter-spacing: 0.01em;
+    margin-left: 0.5%;
+    margin-top: 5px;
+    color: red;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+#marginsInput{
+    margin-top: 10px !important;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: #04599b;
+}
+.carIcons{
+    height: 80px;
+    object-fit: contain;
+}
+.hatchbackIcons{
+    height: 66px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    object-fit: contain;
+}
+.closeIcon{
+    float: right;
+    cursor: pointer;
+}
+p.modal_header_text{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #252525;
+    margin-bottom: 3px;
+}
+.calenderLayout{
+    padding: 0px !important;
+    border-radius: 0px !important;
+    margin: 0px !important;
+    border: 0px solid #fff !important;
+    width: 100% !important;
+}
+.calender_div:hover{
+    border: 1.6px solid #14bf98;
+}
