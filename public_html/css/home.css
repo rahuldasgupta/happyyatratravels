@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@media screen and (max-width: 769px) {
+    .home-about-content{
+        background-repeat: no-repeat, repeat;
+        background-position: left top;
+        background-image: url("../images/home_bg.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100vw;
+    }
+    .home-about-content_inner1{
+        background-color: rgb(19, 19, 17, 0.7);
+        width: 100vw;
+        padding-top: 25%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .home_box_1_title_white{
+        color:#fff;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    
+    .home_box_1_para_white{
+        color:#fff;
+        font-size: 16px;
+        font-family: 'Rubik', sans-serif;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 770px) {
+    .home-about-content{
+        background-repeat: no-repeat, repeat;
+        background-position: left top;
+        background-image: url("../images/home_bg.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+    }
+    .home-about-content_inner1{
+        background-color: rgb(19, 19, 17, 0.8);
+        width: 50vw;
+        padding-top: 8%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .home_box_1_title_white{
+        color:#fff;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 40px;
+    }
+    
+    .home_box_1_para_white{
+        color:#fff;
+        font-size: 17px;
+        font-family: 'Rubik', sans-serif;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+}

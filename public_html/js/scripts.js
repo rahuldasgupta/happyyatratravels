@@ -9,17 +9,16 @@
     "use strict"; 
 	
 	/* Preloader */
-	$(window).on('load', function() {
-		var preloaderFadeOutTime = 500;
-		function hidePreloader() {
-			var preloader = $('.spinner-wrapper');
-			setTimeout(function() {
-				preloader.fadeOut(preloaderFadeOutTime);
-			}, 500);
-		}
-		hidePreloader();
-	});
-
+	$(document).ready(function() {
+        var preloaderFadeOutTime = 500;
+        function hidePreloader() {
+            var preloader = $('.spinner-wrapper');
+            setTimeout(function() {
+                preloader.fadeOut(preloaderFadeOutTime);
+            }, 500);
+        }
+        setTimeout(hidePreloader, 1500);
+    });
 	
 	/* Navbar Scripts */
 	// jQuery to collapse the navbar on scroll
