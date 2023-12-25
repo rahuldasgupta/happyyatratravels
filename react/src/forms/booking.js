@@ -32,12 +32,12 @@ import 'react-calendar/dist/Calendar.css';
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBpDBEcq_VYOmwsyXqLNcNia-d71by3OME",
-  authDomain: "happy-yatra-travels.firebaseapp.com",
-  projectId: "happy-yatra-travels",
-  storageBucket: "happy-yatra-travels.appspot.com",
-  messagingSenderId: "402899306121",
-  appId: "1:402899306121:web:6bd880c06d0b390739e858"
+  apiKey: "AIzaSyBfwh7elwhd0jAdU04CKxugCFf7dsZXleY",
+  authDomain: "happy-yatra-travel.firebaseapp.com",
+  projectId: "happy-yatra-travel",
+  storageBucket: "happy-yatra-travel.appspot.com",
+  messagingSenderId: "83298667821",
+  appId: "1:83298667821:web:8ecdc8dc73784337d157a4"
 };
 
 const packageOptions = [
@@ -228,6 +228,7 @@ class booking extends React.Component {
           draggable: true,
           progress: undefined,
           theme: "colored",
+          style: { background: '#14bf98' },
         });
         this.sendUserEmail(orderID)
       })
@@ -258,6 +259,7 @@ class booking extends React.Component {
           draggable: true,
           progress: undefined,
           theme: "colored",
+          style: { background: '#14bf98' },
         });
         this.setState({
           fullName: "",
@@ -497,7 +499,7 @@ class booking extends React.Component {
               
               <center>
                 <button className="submitData" onClick={this.checkSubmit}>
-                    Submit
+                    SUBMIT
                 </button>
               </center>
             </div>

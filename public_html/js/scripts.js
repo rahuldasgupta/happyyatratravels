@@ -17,7 +17,7 @@
                 preloader.fadeOut(preloaderFadeOutTime);
             }, 500);
         }
-        setTimeout(hidePreloader, 1500);
+        setTimeout(hidePreloader, 1000);
     });
 	
 	/* Navbar Scripts */

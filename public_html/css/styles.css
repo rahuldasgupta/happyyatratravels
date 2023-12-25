@@ -78,13 +78,33 @@ body, p {
 	margin-bottom: 10px !important;
 }
 @media screen and (max-width: 599px) {
+	.counter #counter .cell {
+		display: inline-block;
+		width: auto;
+		margin-right: 10px;
+		margin-bottom: 0.75rem;
+	}
+	.counter {
+		padding-top: 4.5rem;
+		padding-bottom: 1.5rem;
+	}
+	.cards-2 {
+		padding-top: 3rem;	
+		padding-bottom: 1.25rem;	
+		background-color: #fbfbfb;
+	}
+	.cards-2 .card {
+		margin-bottom: 2rem;
+		border: none;
+		background-color: transparent;
+	}
 	.momentImages{
 		width: 200px;
 		height: 200px;
 		object-fit: cover;
 	}
 	.cards-1 {
-		padding-top: 5rem;
+		padding-top: 1rem;
 	}
 	.sightseeing_icon_margin{
 		margin-bottom: -10px !important;
@@ -140,15 +160,39 @@ body, p {
 		min-height: 1160px; /* 100% of the viewport height */
 		border: 0; /* Remove iframe border */
 	}
+	.iframe_div_2{
+		width: 100%;
+		margin-top: 11%;
+		margin-bottom: -890px;
+	}
 }
 @media screen and (min-width: 600px) {
+	.counter #counter .cell {
+		display: inline-block;
+		width: 9.5rem;
+		margin-bottom: 0.75rem;
+	}
+	.counter {
+		padding-top: 6.875rem;
+		padding-bottom: 5.25rem;
+	}
+	.cards-2 {
+		padding-top: 4rem;	
+		padding-bottom: 1.25rem;	
+		background-color: #fbfbfb;
+	}
+	.cards-2 .card {
+		margin-bottom: 5rem;
+		border: none;
+		background-color: transparent;
+	}
 	.momentImages{
 		height: 100%;
 		width: 100%;
 		object-fit: cover;
 	}
 	.cards-1 {
-		padding-top: 7rem;
+		padding-top: 1rem;
 	}
 	.car-custom-margins{
 		margin-top: -2px !important;
@@ -200,6 +244,11 @@ body, p {
 		margin-left: 10%;
 		border-radius: 15px;
 		margin-right: 10%;
+	}
+	.iframe_div_2{
+		width: 100%;
+		margin-top: 5%;
+		margin-bottom: -50vh;
 	}
 }
 
@@ -1039,11 +1088,7 @@ input[type='checkbox'] {
 /************************/
 /*     07. Services     */
 /************************/
-.cards-2 {
-	padding-top: 5.6rem;	
-	padding-bottom: 1.25rem;	
-	background-color: #fbfbfb;
-}
+
 .services_secondRow {
 	padding-top: 0px !important;
 	margin-top: -1rem !important;
@@ -1067,11 +1112,7 @@ input[type='checkbox'] {
 	text-align: center;
 }
 
-.cards-2 .card {
-	margin-bottom: 5.625rem;
-	border: none;
-	background-color: transparent;
-}
+
 
 .cards-2 .card-image img {
 	border-top-left-radius: 0.375rem;
@@ -1133,11 +1174,6 @@ input[type='checkbox'] {
 /*************************/
 /*     08. Details 1     */
 /*************************/
-.accordion .area-1 {
-	height: 27rem;
-	background: url('../images/details-1-background.jpg') center center no-repeat;
-	background-size: cover;
-}
 
 .accordion .accordion-container {
 	max-width: 90%;
@@ -1322,13 +1358,6 @@ input[type='checkbox'] {
 .tabs #tab-3 .list-unstyled {
 	margin-bottom: 1.75rem;
 }
-
-.tabs .area-2 {
-	height: 27rem;
-	background: url('../images/details-2-background.jpg') center center no-repeat;
-	background-size: cover;
-}
-
 
 /****************************/
 /*     10. Testimonials     */
@@ -1753,10 +1782,7 @@ input[type='checkbox'] {
 /*********************/
 /*     15. About     */
 /*********************/
-.counter {
-	padding-top: 6.875rem;
-	padding-bottom: 5.25rem;
-}
+
 
 .counter .image-container {
 	margin-bottom: 3rem;
@@ -1792,11 +1818,7 @@ input[type='checkbox'] {
 	text-align: center;
 }
 
-.counter #counter .cell {
-	display: inline-block;
-	width: 9.5rem;
-	margin-bottom: 0.75rem;
-}
+
 
 .counter #counter .counter-value {
 	display: inline-block;

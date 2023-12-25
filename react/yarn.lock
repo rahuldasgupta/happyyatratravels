@@ -3860,9 +3860,14 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001400, caniuse-lite@^1.0.30001426:
-  version "1.0.30001434"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001434.tgz#ec1ec1cfb0a93a34a0600d37903853030520a4e5"
-  integrity sha512-aOBHrLmTQw//WFa2rcF1If9fa3ypkC1wzqqiKHgfdrXTWcU8C4gKVZT77eQAPWN1APys3+uQ0Df07rKauXGEYA==
+  version "1.0.30001571"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001571.tgz"
+  integrity sha512-tYq/6MoXhdezDLFZuCO/TKboTzuQ/xR5cFdgXPfDtM7/kchBO3b4VWghE/OAi/DV7tTdhmLjZiZBZi1fA/GheQ==
+
+caniuse-lite@^1.0.30001571:
+  version "1.0.30001571"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001571.tgz#4182e93d696ff42930f4af7eba515ddeb57917ac"
+  integrity sha512-tYq/6MoXhdezDLFZuCO/TKboTzuQ/xR5cFdgXPfDtM7/kchBO3b4VWghE/OAi/DV7tTdhmLjZiZBZi1fA/GheQ==
 
 case-sensitive-paths-webpack-plugin@^2.4.0:
   version "2.4.0"
@@ -8555,6 +8560,11 @@ react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
+
+react-multi-carousel@^2.8.4:
+  version "2.8.4"
+  resolved "https://registry.yarnpkg.com/react-multi-carousel/-/react-multi-carousel-2.8.4.tgz#eee6493878974e372e5aa9944754602ec0f34968"
+  integrity sha512-7Is5Wr+m2ebkR+oq2Su2tjUdBwpVtB2O6Tjb74KDNfxWe/FrsTQwezTJTk/r9cKCrRp9Li308v822/5bZm7XKg==
 
 react-refresh@^0.11.0:
   version "0.11.0"
